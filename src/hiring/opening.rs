@@ -2,6 +2,7 @@ use crate::{hiring, ApplicationRationingPolicy, StakingPolicy};
 
 use codec::{Decode, Encode};
 use rstd::collections::btree_set::BTreeSet;
+use rstd::vec::Vec;
 
 use crate::hiring::StakePurpose;
 

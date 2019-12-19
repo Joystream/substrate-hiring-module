@@ -3,6 +3,8 @@ use codec::{Decode, Encode};
 #[cfg(feature = "std")]
 use serde::{Deserialize, Serialize};
 
+use rstd::vec::Vec;
+
 use crate::hiring::StakePurpose;
 
 /// An application for an actor to occupy an opening.
